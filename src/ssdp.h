@@ -58,7 +58,7 @@
 #define MC_SSDP_PORT         1900
 #define MC_TTL_DEFAULT       2
 #ifndef TEST_MODE
-# define LOCATION_PORT       (MC_SSDP_PORT + 1)
+# define LOCATION_PORT       (MC_SSDP_PORT + 10)
 #else
 # define LOCATION_PORT       8080
 #endif
